@@ -41,25 +41,18 @@ body{
 }
 .link{
     display: block;
-    background-color: var(--accentColor);
     color: #bbbbbb;
     font-family: var(--font);
-    text-align: center;
     margin-bottom: 20px;
     padding: 17px;
     text-decoration: none;
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    border: solid var(--accentColor) 1px;
-
     position: relative;
     font-weight: 200;
-    font-size: 14px;
     text-align: center;
-    padding: 16px 12px;
     letter-spacing: 1px;
     border-radius: 2px;
-    text-decoration: none;
     border: 1px solid rgb(45, 45, 45);
     background-color: rgb(28, 28, 28);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
