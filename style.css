@@ -34,7 +34,7 @@ body{
 }
 
 #links{
-    max-width: 675px;
+    max-width: 475px;
     width: auto;
     display: block;
     margin: 27px auto;
@@ -42,7 +42,7 @@ body{
 .link{
     display: block;
     background-color: var(--accentColor);
-    color: var(--bgColor);
+    color: #bbbbbb;
     font-family: var(--font);
     text-align: center;
     margin-bottom: 20px;
@@ -50,12 +50,26 @@ body{
     text-decoration: none;
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    border: solid var(--accentColor) 2px;
+    border: solid var(--accentColor) 1px;
+
+    position: relative;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px 12px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid rgb(45, 45, 45);
+    background-color: rgb(28, 28, 28);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
 }
 
 .link:hover{
     background-color: var(--bgColor);
     color: var(--accentColor);
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.04), transparent);
+    transition: all 0.1s ease-in 0s;
 }
 h5{
     text-align: center;
@@ -66,9 +80,15 @@ h5{
 }
 h1{
     text-align: center;
-    margin-bottom: 20px;
-    color: #E6E6E6;
-    font-family: var(--font);
+
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(165, 165, 165)) text;
+    -webkit-text-fill-color: transparent;
+    margin: 15px 0px 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: calc(1.375rem);
+    text-transform: uppercase;
+    
 }
 h6{
     text-align: center;
@@ -85,4 +105,32 @@ h6{
     font-family: var(--font);
     margin-bottom: 20px;
     padding: 17px;
+    text-decoration: none;
 }
+
+.button-class{
+    display: flex; 
+    justify-content: center; 
+    gap: 5px;
+}
+.outlined-text {
+    outline: 1px solid #40cf8e; /* Define the outline style, width, and color */
+    display: inline-block;
+    color: #40cf8e;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--green);
+    padding: 3px 6px;
+    border-radius: 2px;
+    background-color: rgba(64, 207, 143, 0.082);;
+}
+
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* For vertical centering */
+    gap: 15px;
+    
+}
+
